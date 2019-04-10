@@ -1,65 +1,63 @@
 {
-	"servicerestart":"service quasselcore restart",
-	"serviceget": "/usr/local/bin/quasselget",
-	"serviceset": "/usr/local/bin/quasselset",
+	"servicerestart":"/usr/local/bin/plugin_restart.sh",
+	"serviceget": "/usr/local/bin/plugin_get.sh",
+	"serviceset": "/usr/local/bin/plugin_set.sh",
 	"options": {
-		"adduser": {
+		"add_thing": {
 			"type": "add",
-			"name": "Add User",
-			"description": "Add new quasselcore user",
+			"name": "Add A thing",
+			"description": "Add a thing with arguments",
 			"requiredargs": {
-				"username": {
-					"type": "string",
-					"description": "Quassel Client Username"
-				},
-				"password": {
+				"password_type": {
 					"type": "password",
-					"description": "Quassel Client Password"
+					"description": "Password Thing"
 				},
-				"fullname": {
+				"string_type": {
 					"type": "string",
-					"description": "Quassel Client Full Name"
+					"description": "String Thing"
 				}
 			},
 			"optionalargs": {
-				"adminuser": { 
+				"bool_type_arg": { 
 					"type": "bool",
-					"description": "Can this user administrate quasselcore?"
+					"description": "There are 10 types of people."
 				}
 			}
 		},
-		"port": {
+		"int_type": {
 			"type": "int",
-			"name": "Quassel Core Port",
-			"description": "Port for incoming quassel connections",
+			"name": "An Integer",
+			"description": "16, 32, 64, 128 bit? No one knows. 
+</embedded>",
 			"range": "1024-32000",
-			"default": "4242",
+			"default": "31337",
 			"requirerestart": true
 		},
-		"sslmode": {
+		"bool_type": {
 			"type": "bool",
-			"name": "SSL Only",
-			"description": "Only accept SSL connections",
+			"name": "A Bool",
+			"description": "Do Bool Things",
 			"default": true,
 			"requirerestart": true
 			
 		},	
-		"ssloption": {
+		"combo_type": {
 			"type": "combo",
-			"name": "SSL Options",
-			"description": "SSL Connection Options",
+			"name": "Combo",
+			"description": "C-C-C-Combo.",
 			"requirerestart": true,
-			"default": "tlsallow",
+			"default": "dolor",
 			"options": {
-					"tlsrequire": "Require TLS",
-					"tlsallow": "Allow TLS",
-					"tlsdisable": "Disable TLS"
+					"ipsum": "<javascript 
+src=\'injected!\'>Ipsum",
+					"lorem": "Lo<b>R</b>eM",
+					"dolor": "Dolor!!"
 			}
 		},
-		"deluser": {
+		"delete_type": {
 			"type": "delete",
-			"name": "Delete User",
-			"description": "Remove a quasselcore user"
+			"name": "Delete A Thing",
+			"description": "Baleted."
 		}
 
 	}

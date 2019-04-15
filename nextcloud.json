@@ -12,7 +12,9 @@
   "pkgs": [
     "www/nextcloud",
     "www/nginx",
-    "databases/mysql56-server"
+    "databases/mysql56-server",
+    "openmdns",
+    "daemontools"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
   "fingerprints": {

@@ -1,7 +1,7 @@
 {
-  "name": "dhcpjail",                                                             
+  "name": "templatejail",                                                             
   "release": "11.2-RELEASE",                                                    
-  "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-dhcp.git", 
+  "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-template.git", 
   "properties": { 
     "boot": "on",
     "allow_raw_sockets": "1",
@@ -11,8 +11,7 @@
   },
   "pkgs": [
     "ca_root_nss",
-    "python37",
-    "nano"
+    "python37"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
   "fingerprints": {

@@ -1,11 +1,13 @@
 {
   "name": "OpenVPN",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/gitbulb/iocage-plugin-openvpn.git",
+  "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-openvpn.git",
   "pkgs": [
     "security/openvpn"
   ],
   "properties": {
+    "dhcp": "on",
+    "boot": "on",
     "allow_raw_sockets": "1",
     "bpf": "yes",
     "vnet": "on",

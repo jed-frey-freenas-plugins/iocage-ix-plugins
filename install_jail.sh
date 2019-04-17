@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Interface
 IFACE=lagg0
+# JSON
+JSON=$1/$1.json
+# IP4_addr
+IP4_ADDR="192.168.1.99/24"
 
-iocage fetch --plugin-file --noverify --accept --name $1 ip4_addr="192.168.1.$2/24"
+iocage fetch --plugin-file --noverify --accept --name ${JSON} ip4_addr="${IP4_ADDR}"

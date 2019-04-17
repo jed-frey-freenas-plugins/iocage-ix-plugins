@@ -1,0 +1,33 @@
+[submodule "mosquitto"]
+	path = mosquitto
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-mosquitto.git
+[submodule "gitea"]
+	path = gitea
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-gitea.git
+[submodule "homeassistant"]
+	path = homeassistant
+	url = https://github.com/jed-frey-freenas-plugins/iocage-homeassistant.git
+[submodule "tasmoadmin"]
+	path = tasmoadmin
+	url = https://github.com/jed-frey-freenas-plugins/iocage-tasmoadmin.git
+[submodule "amazon-dash"]
+	path = amazon-dash
+	url = https://github.com/jed-frey-freenas-plugins/iocage-amazon-dash.git
+[submodule "dhcp"]
+	path = dhcp
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-dhcp.git
+[submodule "open-zwave-control-panel"]
+	path = open-zwave-control-panel
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-open-zwave-control-panel.git
+[submodule "openvpn"]
+	path = openvpn
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-openvpn.git
+[submodule "nextcloud"]
+	path = nextcloud
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-nextcloud.git
+[submodule "template"]
+	path = template
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-template.git
+[submodule "transmission"]
+	path = transmission
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-transmission.git

@@ -1,9 +1,11 @@
 #!/bin/sh
 
+PLUGIN=${1%/}
+
 # Interface
 IFACE=lagg0
 # JSON
-JSON=$1/$1.json
+JSON=${PLUGIN}/${PLUGIN}.json
 # IP4_addr
 IP4_ADDR="192.168.1.99/24"
 

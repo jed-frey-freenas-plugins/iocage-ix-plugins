@@ -31,3 +31,6 @@
 [submodule "transmission"]
 	path = transmission
 	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-transmission.git
+[submodule "iocage-plugin-icecream"]
+	path = iocage-plugin-icecream
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-icecream.git

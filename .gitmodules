@@ -34,3 +34,6 @@
 [submodule "iocage-plugin-icecream"]
 	path = icecream
 	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-icecream.git
+[submodule "iocage-plugin-ipfs"]
+	path = ipfs
+	url = https://github.com/jed-frey-freenas-plugins/iocage-plugin-ipfs.git

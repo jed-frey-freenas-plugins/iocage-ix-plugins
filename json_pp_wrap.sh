@@ -4,8 +4,6 @@
 JSON=`realpath $1`
 BAK=${JSON}.bak
 
-echo ${JSON}
-echo ${BAK}
-
 cp ${JSON} ${BAK}
 json_pp < ${BAK} > ${JSON}
+rm ${BAK}

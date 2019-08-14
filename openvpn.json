@@ -1,5 +1,5 @@
 {
-    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-gitea.git",
+    "artifact": "https://github.com/gitbulb/iocage-plugin-openvpn.git",
     "fingerprints": {
         "plugin-default": [
             {
@@ -8,24 +8,16 @@
             }
         ]
     },
-    "name": "gitea",
+    "name": "OpenVPN",
     "official": false,
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "pkgs": [
-        "nginx",
-        "mysql57-server",
-        "gitea",
-        "redis",
-        "openmdns"
+        "security/openvpn"
     ],
-    "plugin_schema": "2",
     "properties": {
-        "allow_mount_tmpfs": "1",
         "allow_raw_sockets": "1",
-        "boot": "on",
         "bpf": "yes",
-        "dhcp": "on",
         "vnet": "on"
     },
-    "release": "12.0-RELEASE"
+    "release": "11.2-RELEASE"
 }

@@ -1,5 +1,5 @@
 {
-    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-gitea.git",
+    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-homeassistant.git",
     "fingerprints": {
         "plugin-default": [
             {
@@ -8,24 +8,27 @@
             }
         ]
     },
-    "name": "gitea",
+    "name": "homeassistant",
     "official": false,
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "pkgs": [
-        "nginx",
-        "mysql57-server",
-        "gitea",
-        "redis",
+        "devel/autoconf",
+        "shells/bash",
+        "security/ca_root_nss",
+        "devel/gmake",
+        "textproc/libxml2",
+        "textproc/libxslt",
+        "lang/python36",
+        "databases/py-sqlite3",
+        "sysutils/screen",
         "openmdns"
     ],
-    "plugin_schema": "2",
     "properties": {
-        "allow_mount_tmpfs": "1",
         "allow_raw_sockets": "1",
         "boot": "on",
         "bpf": "yes",
         "dhcp": "on",
         "vnet": "on"
     },
-    "release": "12.0-RELEASE"
+    "release": "11.2-RELEASE"
 }

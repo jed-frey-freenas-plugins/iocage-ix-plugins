@@ -1,1 +1,30 @@
-transmission/transmission.json
+{
+    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-transmission.git",
+    "fingerprints": {
+        "plugin-default": [
+            {
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438",
+                "function": "sha256"
+            }
+        ]
+    },
+    "name": "Transmission",
+    "official": false,
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+    "pkgs": [
+        "transmission-daemon",
+        "transmission-web",
+        "nginx",
+        "openmdns"
+    ],
+    "plugin_schema": "2",
+    "properties": {
+        "allow_mount_tmpfs": "1",
+        "allow_raw_sockets": "1",
+        "boot": "on",
+        "bpf": "yes",
+        "dhcp": "on",
+        "vnet": "on"
+    },
+    "release": "12.0-RELEASE"
+}

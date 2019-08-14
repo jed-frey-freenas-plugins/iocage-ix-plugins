@@ -1,1 +1,22 @@
-open-zwave-control-panel/open-zwave-control-panel.json
+{
+    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-open-zwave-control-panel.git",
+    "fingerprints": {
+        "plugin-default": [
+            {
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438",
+                "function": "sha256"
+            }
+        ]
+    },
+    "name": "open-zwave-control-panel",
+    "official": false,
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+    "pkgs": [
+        "gcc8",
+        "gmake",
+        "libmicrohttpd",
+        "libudev-devd",
+        "security/ca_root_nss"
+    ],
+    "release": "12.0-RELEASE"
+}

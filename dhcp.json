@@ -1,5 +1,5 @@
 {
-    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-gitea.git",
+    "artifact": "https://github.com/jed-frey-freenas-plugins/iocage-plugin-dhcp.git",
     "fingerprints": {
         "plugin-default": [
             {
@@ -8,19 +8,15 @@
             }
         ]
     },
-    "name": "gitea",
+    "name": "dhcp",
     "official": false,
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "pkgs": [
-        "nginx",
-        "mysql57-server",
-        "gitea",
-        "redis",
+        "pkg",
+        "ca_root_nss",
         "openmdns"
     ],
-    "plugin_schema": "2",
     "properties": {
-        "allow_mount_tmpfs": "1",
         "allow_raw_sockets": "1",
         "boot": "on",
         "bpf": "yes",

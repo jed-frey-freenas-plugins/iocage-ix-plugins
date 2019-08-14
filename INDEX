@@ -1,0 +1,51 @@
+{
+    "dhcp": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "dhcp",
+        "official": false
+    },
+    "gitea": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "gitea",
+        "official": false
+    },
+    "homeassistant": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "homeassistant",
+        "official": false
+    },
+    "nextcloud": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "nextcloud",
+        "official": false
+    },
+    "open-zwave-control-panel": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "open-zwave-control-panel",
+        "official": false
+    },
+    "openvpn": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "openvpn",
+        "official": false
+    },
+    "transmission": {
+        "MANIFEST": "dhcp.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "transmission",
+        "official": false
+    }
+}

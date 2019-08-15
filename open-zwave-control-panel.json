@@ -18,5 +18,6 @@
         "libudev-devd",
         "security/ca_root_nss"
     ],
+    "plugin_schema": "2",
     "release": "12.0-RELEASE"
 }

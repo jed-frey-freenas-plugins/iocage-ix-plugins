@@ -5,4 +5,6 @@ PLUGIN=${1%/}
 # JSON
 JSON=${PLUGIN}/${PLUGIN}.json
 # IP4_addr
-iocage fetch --plugin-name ${JSON} --noverify --accept ip4_addr="none"
+
+# Hack, because reasons.
+python3.6 /root/iocage/iocage fetch --plugin-name ${JSON} --noverify --accept ip4_addr="none"

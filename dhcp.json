@@ -16,6 +16,7 @@
         "ca_root_nss",
         "openmdns"
     ],
+    "plugin_schema": "2",
     "properties": {
         "allow_raw_sockets": "1",
         "boot": "on",

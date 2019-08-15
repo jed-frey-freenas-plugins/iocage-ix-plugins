@@ -23,6 +23,7 @@
         "sysutils/screen",
         "openmdns"
     ],
+    "plugin_schema": "2",
     "properties": {
         "allow_raw_sockets": "1",
         "boot": "on",
@@ -30,5 +31,5 @@
         "dhcp": "on",
         "vnet": "on"
     },
-    "release": "11.2-RELEASE"
+    "release": "12.0-RELEASE"
 }

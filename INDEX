@@ -34,13 +34,6 @@
         "name": "open-zwave-control-panel",
         "official": false
     },
-    "openvpn": {
-        "MANIFEST": "openvpn.json",
-        "description": "TODO:",
-        "icon": "",
-        "name": "openvpn",
-        "official": false
-    },
     "transmission": {
         "MANIFEST": "transmission.json",
         "description": "TODO:",

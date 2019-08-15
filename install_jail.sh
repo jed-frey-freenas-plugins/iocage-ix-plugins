@@ -1,6 +1,7 @@
 #!/bin/sh
 
 PLUGIN=${1%/}
+PLUGIN=${PLUGIN%.json}
 
 # JSON
 JSON=${PLUGIN}/${PLUGIN}.json

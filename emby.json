@@ -1,0 +1,43 @@
+{
+    "artifact": "https://github.com/jaf-iocage-plugins/iocage-jaf-plugins.git",
+    "fingerprints": {
+        "plugin-default": [
+            {
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438",
+                "function": "sha256"
+            }
+        ]
+    },
+    "name": "emby-server",
+    "official": false,
+    "packagesite": "https://pkg.FreeBSD.org/${ABI}/quarterly",
+    "pkgs": [
+        "graphics/ImageMagick6",
+        "lang/mono",
+        "multimedia/libass",
+        "x11-fonts/fontconfig",
+        "print/freetype2",
+        "converters/fribidi",
+        "security/gnutls",
+        "converters/iconv",
+        "audio/opus",
+        "net/samba48",
+        "databases/sqlite3",
+        "multimedia/libtheora",
+        "multimedia/libva",
+        "audio/libvorbis",
+        "graphics/webp",
+        "multimedia/libx264",
+        "graphics/libraw",
+        "devel/libzvbi"
+    ],
+    "plugin_schema": "2",
+    "properties": {
+        "allow_raw_sockets": "1",
+        "boot": "on",
+        "bpf": "yes",
+        "dhcp": "on",
+        "vnet": "on"
+    },
+    "release": "12.0-RELEASE"
+}

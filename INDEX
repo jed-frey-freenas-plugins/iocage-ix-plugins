@@ -6,6 +6,13 @@
         "name": "dhcp",
         "official": false
     },
+    "emby": {
+        "MANIFEST": "emby.json",
+        "description": "TODO:",
+        "icon": "",
+        "name": "emby",
+        "official": false
+    },
     "gitea": {
         "MANIFEST": "gitea.json",
         "description": "TODO:",

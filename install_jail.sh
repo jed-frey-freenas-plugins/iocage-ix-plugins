@@ -1,11 +1,18 @@
 #!/bin/sh
 
-PLUGIN=${1%/}
+# Because tab completion
+PLUGIN=${1%/} 
 PLUGIN=${PLUGIN%.json}
 
-# JSON
+# JSON file.
 JSON=${PLUGIN}/${PLUGIN}.json
-# IP4_addr
 
 # Hack, because reasons.
-python3.6 /root/iocage/iocage fetch --plugin-name ${JSON} --noverify --accept ip4_addr="none"
+IOCAGE="python3.6 /root/iocage/iocage"
+
+if [ "x${2}" = x"" ]
+then
+	${IOCAGE} fetch --plugin-name ${JSON} ip4_addr="none"
+else
+	${IOCAGE} fetch --plugin-name ${JSON} --name ${2} ip4_addr="none"
+fi

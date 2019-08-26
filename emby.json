@@ -32,5 +32,12 @@
         "devel/libzvbi"
     ],
     "plugin_schema": "2",
+    "properties": {
+        "allow_raw_sockets": "1",
+        "boot": "on",
+        "bpf": "yes",
+        "dhcp": "on",
+        "vnet": "on"
+    },
     "release": "12.0-RELEASE"
 }

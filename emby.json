@@ -8,9 +8,9 @@
             }
         ]
     },
-    "name": "emby-server",
+    "name": "emby",
     "official": false,
-    "packagesite": "https://pkg.FreeBSD.org/${ABI}/quarterly",
+    "packagesite": "https://pkg.FreeBSD.org/${ABI}/release_0",
     "pkgs": [
         "graphics/ImageMagick6",
         "lang/mono",

@@ -10,7 +10,7 @@
     },
     "name": "emby",
     "official": false,
-    "packagesite": "https://pkg.FreeBSD.org/${ABI}/release_0",
+    "packagesite": "https://pkg.FreeBSD.org/${ABI}/quarterly",
     "pkgs": [
         "graphics/ImageMagick6",
         "lang/mono",

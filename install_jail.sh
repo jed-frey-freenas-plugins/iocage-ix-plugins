@@ -9,7 +9,7 @@ JSON=${PLUGIN}/${PLUGIN}.json
 
 # Hack, because reasons.
 IOCAGE="python3.6 /root/iocage/iocage"
-
+IOCAGE=`which iocage`
 if [ "x${2}" = x"" ]
 then
 	${IOCAGE} fetch --plugin-name ${JSON} ip4_addr="none"

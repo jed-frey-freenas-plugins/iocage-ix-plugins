@@ -1,5 +1,5 @@
 {
-    "artifact": "https://github.com/jaf-iocage-plugins/iocage-jaf-plugins.git",
+    "artifact": "https://github.com/dapperfu-iocage-plugins/iocage-dapperfu-plugins.git",
     "fingerprints": {
         "plugin-default": [
             {
@@ -39,5 +39,5 @@
         "dhcp": "on",
         "vnet": "on"
     },
-    "release": "12.0-RELEASE"
+    "release": "12.1-RELEASE"
 }
